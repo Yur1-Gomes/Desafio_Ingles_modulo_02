@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("assets/fishing_boats_on_the_beach_at_saintes_maries.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: "Niconne",cursive,sans-serif;
+    font-size: 3rem;
+    color: #26292e;
+}
+.top_page{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+header img{
+    height:30vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+main{
+    width: 65%;
+    margin:auto;
+    margin-top: 2%;
+    padding: 0.5rem;
+    background-color: rgba(44, 59, 98, 0.692);
+}
+.sower{
+    float: left;
+}
+.sower img{
+    height: 25vh;
+    margin-right: 0.7rem;
+}
+.sower figcaption{
+    caption-side: bottom;
+    background-color: #CE9000;
+    color: white;
+    text-align: center;
+    margin-right: 0.7rem;
+}
+.wheat{
+    float: right;
+}
+.wheat img{
+    height: 25vh;
+    margin-left: 0.7rem;
+}
+.wheat figcaption{
+    caption-side: bottom;
+    background-color: #CE9000;
+    color: white;
+    text-align: center;
+    margin-left: 0.7rem;
+}
+p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    text-indent: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+@media(max-width:375px){
+    main{
+        width: 80%;
+    }
+    .sower img{
+        width: 76vw;
+    }
+    .wheat img{
+        width: 75vw;
+    }
+    .wheat figcaption{
+        margin-bottom: 1rem;
+    }
+}
